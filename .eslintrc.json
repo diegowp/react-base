@@ -21,6 +21,14 @@
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "no-unused-vars": "warn",
-    "space-before-function-paren": "off"
+    "space-before-function-paren": "off",
+    "prettier/prettier": [
+      "warn",
+      {
+        "singleQuote": true,
+        "semi": false,
+        "trailingComma": "none"
+      }
+    ]
   }
 }

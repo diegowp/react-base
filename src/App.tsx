@@ -1,9 +1,14 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { NavBar } from '@/Header/NavBar'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return <div className="App">Olá</div>
+  return (
+    <div className='container-fluid px-0'>
+      <header>
+        <NavBar />
+      </header>
+    </div>
+  )
 }
 
 export default App
