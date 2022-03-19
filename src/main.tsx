@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom'
 import App from './App'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
+import 'moment/dist/locale/pt-br'
+import moment from 'moment'
+moment.locale('pt-br')
 
 ReactDOM.render(
   <React.StrictMode>
